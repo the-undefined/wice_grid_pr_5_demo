@@ -1,0 +1,8 @@
+<%= simple_form_for project do |form| %>
+  <%= form.input :name %>
+  <%= form.input :status, as: :select, collection: Project.statuses.keys.map {|k| [k.humanize, k] } %>
+  <%= form.input :start_date %>
+  <%= form.input :end_date %>
+
+  <%= form.submit %>
+<% end %>
