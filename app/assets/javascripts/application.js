@@ -11,7 +11,7 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require jquery3
+//= require jquery2
 //= require wice_grid
 //= require jquery-ui/widgets/datepicker
 //= require_tree .

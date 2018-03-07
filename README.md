@@ -16,8 +16,8 @@ Then fire up the web server: `rails s`.
 
 ## Reproduction Steps
 
-**You are on the branch were turbolinks has been removed, and the issue is still present.**
+**This branch is using jQuery 2**
 
 1. Visit the [home page](http://localhost:3000/)
 2. You will see a table that is using wice grid (albeit unstyled)
-3. Try changing the `Status` select box, nothing will happen
+3. Try changing the `Status` select box **it will work**
