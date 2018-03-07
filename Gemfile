@@ -33,7 +33,10 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
 gem 'wice_grid', git: 'https://github.com/patricklindsay/wice_grid.git', tag: 'v4.0.0'
+gem 'font-awesome-sass',  '~> 4.3'
 gem 'simple_form'
 
 group :development, :test do
